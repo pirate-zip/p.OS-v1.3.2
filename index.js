@@ -2,7 +2,7 @@ require('dotenv').config();
 const { token } = process.env;
 const { Client, Collection, GatewayIntentBits, MessageContent, GuildMessages, messageCreate } = require('discord.js');
 const fs = require('fs');
-// const keepAlive = require(`./server`);
+const keepAlive = require(`./server`);
 const pirateID = ('907055124503994398');
 
 const client = new Client({ intents: GatewayIntentBits.Guilds, MessageContent, GuildMessages });
