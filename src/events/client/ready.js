@@ -6,7 +6,7 @@ module.exports = {
 	async execute(client) {
 		client.user.setPresence({
 			process: process.pid,
-			status: 'dnd'
+			status: 'invisible'
 		});
 		// client.user.setActivity('Sea of Thieves 2023 Edition', { type: ActivityType.Playing/*, url: 'https://www.twitch.tv/pirateofhyrule'*/ });
     client.user.setActivity('for an update', { type: ActivityType.Watching });
