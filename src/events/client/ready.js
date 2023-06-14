@@ -8,7 +8,7 @@ module.exports = {
 			process: process.pid,
 			status: 'idle'
 		});
-		client.user.setActivity('Guardians of the Galaxy Vol. 3', { type: ActivityType.Watching/*, url: 'https://www.twitch.tv/pirateofhyrule'*/ });
+		client.user.setActivity('Among Us (very sus)', { type: ActivityType.Playing/*, url: 'https://www.twitch.tv/pirateofhyrule'*/ });
     // client.user.setActivity('for an update', { type: ActivityType.Watching });
     // client.user.setActivity('<game> on PirateOfHyrule\'s Twitch', { type: ActivityType.Streaming/*, url: 'https://www.twitch.tv/pirateofhyrule'*/ });
 		console.log(`Ready!!! ${client.user.tag} is logged in and online.`);
